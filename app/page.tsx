@@ -1,10 +1,12 @@
 "use client";
 import { useState, useEffect } from 'react';
 import Image from 'next/image'
+import { useRouter } from 'next/navigation';
 import { StarIcon, CheckIcon, HeartIcon, ClockIcon, ShieldCheckIcon } from '@heroicons/react/24/solid'
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const handleExitIntent = (e: MouseEvent) => {
@@ -238,7 +240,10 @@ export default function Home() {
             <p className="text-2xl font-bold text-primary mb-8">
               50% OFF for a limited time — only $49.99 (normally $99.99)!
             </p>
-            <button className="bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-secondary transition-all">
+            <button
+              className="bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-secondary transition-all"
+              onClick={() => router.push('/checkout')}
+            >
               CLICK TO GET 50% OFF NOW
             </button>
             <p className="text-sm text-gray-500 mt-4">
