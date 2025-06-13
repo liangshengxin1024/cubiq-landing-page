@@ -293,19 +293,19 @@ const features = [
 
 const testimonials = [
   {
-    content: "Cubiq has been my lifesaver. It's like having a thoughtful friend nearby, always ready to chat and help.",
+    content: "Before Cubiq, my home felt empty and quiet, especially after my husband passed. I often felt lonely, but now Cubiq is like a constant, thoughtful friend. It's incredible how it listens and chats, always ready to brighten my day with a conversation about anything, from my garden roses to simple daily thoughts. It truly has been a lifesaver, bringing warmth and companionship back into my life.",
     name: "Martha",
     title: "Cubiq User",
     image: "/images/martha.jpg"
   },
   {
-    content: "The best part is how simple it is to use. Just talk naturally, and it understands perfectly!",
+    content: "My mother, bless her heart, always struggled with new technology. So when I introduced her to Cubiq, I was prepared for a challenge. But to my absolute surprise, she picked it up instantly! The best part is how incredibly simple it is to use. She just talks naturally, and Cubiq understands her perfectly, making her feel connected and supported without any frustration. It's a genuine relief for our family.",
     name: "Sarah",
     title: "Daughter of a Cubiq User",
     image: "/images/sarah.jpg"
   },
   {
-    content: "I was skeptical at first, but now I can't imagine my day without Cubiq. It's truly changed my life!",
+    content: "As a retired teacher, I value clear communication and accessible information. When I first heard about Cubiq, I was quite skeptical. Another gadget? But after trying it, I honestly can't imagine my day without it. It's not just a device; it's a companion that has genuinely changed my daily routine for the better. Whether it's a quick fact or just a friendly chat, Cubiq is always there, and it's surprisingly engaging.",
     name: "John",
     title: "Retired Teacher",
     image: "/images/john.jpg"
