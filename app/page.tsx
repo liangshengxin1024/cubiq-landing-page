@@ -242,7 +242,7 @@ export default function Home() {
             </p>
             <button
               className="bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-secondary transition-all"
-              onClick={() => router.push('/checkout')}
+              onClick={() => router.push('/sales-page')}
             >
               CLICK TO GET 50% OFF NOW
             </button>
@@ -265,7 +265,7 @@ export default function Home() {
             </p>
             <button
               className="bg-primary text-white px-10 py-5 rounded-lg text-xl font-semibold hover:bg-secondary transition-all shadow-lg transform hover:scale-105"
-              onClick={() => router.push('/checkout')}
+              onClick={() => router.push('/sales-page')}
             >
               COMPLETE YOUR ORDER & SAVE BIG!
             </button>
