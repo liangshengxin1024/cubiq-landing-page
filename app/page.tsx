@@ -253,6 +253,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Final Call to Action Section */}
+      <section className="py-12 bg-white text-center">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              Ready to Experience the Difference? Get Your Cubiq Today!
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              Don't miss out on the companionship and peace of mind Cubiq brings. Click below to secure your exclusive discount now.
+            </p>
+            <button
+              className="bg-primary text-white px-10 py-5 rounded-lg text-xl font-semibold hover:bg-secondary transition-all shadow-lg transform hover:scale-105"
+              onClick={() => router.push('/checkout')}
+            >
+              COMPLETE YOUR ORDER & SAVE BIG!
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-8 bg-gray-100">
         <div className="container mx-auto px-4">
