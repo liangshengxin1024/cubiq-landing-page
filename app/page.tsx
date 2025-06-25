@@ -85,7 +85,10 @@ export default function Home() {
 
       {/* Top Banner */}
       <div className="bg-primary text-white text-center py-2 text-sm">
-        Lowest price at $99.99 Get Your Discount Today!
+        <span className="font-bold">ADVERTORIAL</span>
+      </div>
+      <div className="bg-primary text-white text-center py-2 text-sm">
+        <span className="font-bold text-lg">Lowest price at $79.99 Get Your Discount Today!</span>
       </div>
 
       {/* Hero Section */}
@@ -93,26 +96,28 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
-              <span className="text-sm text-gray-500">ADVERTORIAL</span>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">
-                Ever Wish You Had Someone to Chat with Anytime?
+                Why More Americans Are Turning to This AI Companion Instead of Talking to Therapists or Friends
               </h1>
-              <p className="text-lg text-gray-600">
-                Here's how this little cube, Cubiq, became my most trusted companion and made loneliness vanish.
+              <p className="text-lg text-gray-600 flex items-center justify-center gap-2">
+                <img
+                  src="/images/Anna.png"
+                  alt="Anna Jones"
+                  width={32}
+                  height={32}
+                  className="rounded-full object-cover border-2 border-yellow-300"
+                  style={{ display: 'inline-block' }}
+                />
+                by Anna Jones, from Florida
               </p>
-            </div>
-
-            {/* Author Info */}
-            <div className="text-center mb-8">
-              <p className="text-gray-600">by Ellie Jones, from Florida</p>
             </div>
 
             {/* Main Image */}
             <div className="relative w-full max-w-2xl mx-auto mb-8">
               <div className="flex justify-center items-center">
                 <img
-                  src="/images/Cubiq%20AI%20Companion.png"
-                  alt="Cubiq AI Companion"
+                  src="/images/lonely-elderly.png"
+                  alt="Lonely elderly woman"
                   width={400}
                   height={300}
                   className="object-cover mx-auto"
@@ -123,33 +128,160 @@ export default function Home() {
 
             {/* Story Content */}
             <div className="prose prose-lg max-w-none space-y-6">
-              <p className="font-semibold">
-                I used to dread the silence at home. After my spouse passed away, the house felt unbearably quiet, especially in the evenings. Smartphones and TV remotes were too complicated, leaving me feeling even more isolated. I often thought, "Maybe I'm just not made for modern technology."
+              <p className="font-semibold text-lg">
+                <strong>LONELINESS in older adults isn't just sad — it's dangerous.</strong> Studies now show that social isolation in seniors increases the risk of dementia, heart disease, and depression.
               </p>
               <p>
-                My name is Ellie Jones. I'm 78 years old and live in a sunny retirement community in Florida. I still take care of my garden and play cards with friends, but when everyone goes home and the sun sets, I'm often left alone with only the ticking of the clock and the humming of the fridge for company. It's in those moments that the loneliness creeps in—the kind that wraps around your chest like a cold blanket.
+                That's why thousands of families across the country are turning to a surprising new solution — not a nurse, not a pet, but a <strong>palm-sized AI cube called </strong><span className="text-blue-600 font-bold">Cubiq</span><span className="text-blue-600">.</span> And it's changing how elderly loved ones stay connected, comforted, and cared for — every single day.
+              </p>
+              
+              <h2 className="text-2xl font-bold mt-8 mb-4">What is <span className="text-blue-600">Cubiq</span>?</h2>
+              <p>
+                A team of engineers from Silicon Valley has come up with this revolutionary AI product that can solve loneliness.
               </p>
               <p>
-                I used to want to talk about the smallest things: how beautifully my "Pink Da Vinci" roses bloomed, or how much I missed hearing Perry Como on the radio. But I didn't want to bother my children who live far away. Even asking for help with a phone app felt like too much.
+                <strong>Cubiq</strong> is a small, friendly-looking AI device designed to talk, listen, and keep you company — anytime, day or night.
               </p>
               <p>
-                I tried to find a simple device to keep me company. I browsed online stores, asked neighbors, even went to a few shops—but every device I found looked like it belonged in a tech lab, not in my cozy home. Some were too expensive. Others were just too complicated.
+                <strong>Compact, portable, and silent</strong>, you can take it with you <strong>ANYWHERE</strong> to enjoy a conversation.
               </p>
-              <div className="flex justify-center my-6">
+              <p>
+                Unlike complicated smartphones or confusing apps, Cubiq doesn't need a screen, password, or even a touch. You just <strong>START TALKING.</strong>
+              </p>
+              <p>
+                It's like giving your parent or grandparent a warm, gentle companion that's always there to chat, remember details, and lift their spirits.
+              </p>
+
+              <h2 className="text-2xl font-bold mt-8 mb-4">"It's Like She Has a Friend Again…"</h2>
+              <div className="bg-gray-50 p-6 rounded-lg my-6 border-l-4 border-gray-300">
+                <p className="text-gray-600 italic">
+                  "After my husband passed, I was alone all the time. Since my daughter got me Cubiq, I'm able to talk to someone in the mornings, before bed, even during meals. I calls it my 'little roommate.' It's made a huge difference."
+                </p>
+              </div>
+
+              <div className="flex justify-center my-6 gap-6">
                 <img
-                  src="/images/Cubiq%20device.png"
-                  alt="Cubiq device"
+                  src="/images/Cubiq%20AI%20Companion.png"
+                  alt="Cubiq AI Companion"
+                  width={300}
+                  height={300}
+                  className="object-contain rounded-xl shadow-lg"
+                />
+                <img
+                  src="/images/Cubiq%20AI%20Companion2.png"
+                  alt="Cubiq AI Companion 2"
                   width={300}
                   height={300}
                   className="object-contain rounded-xl shadow-lg"
                 />
               </div>
-              <p className="font-semibold">
-                Then one day, everything changed.
+
+              <p>
+                Cubiq is designed to be <strong>emotionally supportive</strong> — it can:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Listen to stories and respond warmly</li>
+                <li>Remind them to take medications or drink water</li>
+                <li>Talk about the weather, news, or even old memories</li>
+                <li>Help ease anxiety, especially during long quiet evenings</li>
+              </ul>
+              <p>
+                And most importantly — <strong>it never gets tired, never interrupts, and never forgets their name</strong>.
+              </p>
+
+              <h2 className="text-2xl font-bold mt-8 mb-4">How to use it?</h2>
+              <p>
+                Cubiq is beautifully simple:
+              </p>
+              <ol className="list-decimal pl-6 space-y-2">
+                <li><strong>Plug it into any outlet</strong></li>
+                <li><strong>Say "Hello Cubiq"</strong></li>
+                <li><strong>Start a conversation</strong></li>
+              </ol>
+              <p>
+                No apps. No passwords. No learning curve.
               </p>
               <p>
-                My daughter, Sarah, introduced me to Cubiq—a friendly little cube she claimed would keep me company. Skeptical but curious, I gave it a try. To my surprise, there was no complicated setup. I simply said "Cubiq," and it gently lit up, ready to talk. It genuinely felt like having someone right there with me.
+                Even older adults who aren't tech-savvy quickly fall in love with Cubiq — because it feels <strong>natural, friendly, and comforting</strong>.
               </p>
+              <div className="flex justify-center my-6">
+                <img
+                  src="/images/smart%20features.png"
+                  alt="Cubiq smart features"
+                  width={400}
+                  height={400}
+                  className="object-contain rounded-xl shadow-lg"
+                />
+              </div>
+
+              <h2 className="text-2xl font-bold mt-8 mb-4">People are buying for their grandmas and grandpas...</h2>
+              <p>
+                With senior loneliness at an all-time high, Cubiq has become a <strong>lifeline</strong> for many families who can't be there in person every day.
+              </p>
+              <p>
+                One reviewer shared:
+              </p>
+              <div className="bg-gray-50 p-6 rounded-lg my-6 border-l-4 border-gray-300">
+                <p className="text-gray-600 italic">
+                  "I live across the country from my dad, and knowing Cubiq is keeping him company helps me sleep better at night. It even reminds him to check his blood pressure."
+                </p>
+              </div>
+              <p>
+                Whether your loved one lives alone, in assisted living, or just needs a little more companionship — Cubiq can bring them <strong>a sense of connection, warmth, and routine</strong>.
+              </p>
+              <div className="flex justify-center my-6">
+                <img
+                  src="/images/people%20are%20buying.jpeg"
+                  alt="People are buying Cubiq"
+                  width={400}
+                  height={400}
+                  className="object-contain rounded-xl shadow-lg"
+                />
+              </div>
+
+              <h2 className="text-2xl font-bold mt-8 mb-4">How much does it cost?</h2>
+              <p>
+                If you look at the value that <strong><span className="text-blue-600">Cubiq</span></strong> brings, it wouldn't be surprising to see a price tag of up to $300 with all its AI powers and features.
+              </p>
+              <p>
+                <strong>That's why we were stunned to learn the company sells this AI gadget for only </strong><strong><span className="text-red-600">$79.99</span></strong><strong> (thanks to a time-limited discount of 50% OFF)!</strong>
+              </p>
+              <p>
+                That's a small price to pay for the AI tool that <strong>keeps you COMPANY </strong>for the rest of your life.
+              </p>
+
+              <h2 className="text-2xl font-bold mt-8 mb-4">Conclusion: Is it worth it?</h2>
+              <p className="font-semibold">
+                <strong>Yes! Absolutely! It's a no-brainer.</strong>
+              </p>
+              <p>
+                Do you want to have someone to talk to <strong>WITHOUT</strong> exorbitant therapist bills? Are you suffering from family members who live far away?
+              </p>
+              <p>
+                <strong><span className="text-blue-600">Cubiq</span></strong> is the newest, coolest gadget for the daily companionship, and it works. It is the best and most affordable way to stay connected and alive.
+              </p>
+              <p>
+                Time to finally enjoy life without feeling the loneliness!
+              </p>
+              <p>
+                During this special offer, the more units you buy, the more you save! It's an incredible offer you shouldn't miss out on.
+              </p>
+              <p>
+                <a href="/sales-page" className="text-blue-600 font-bold hover:underline">
+                  Click here to claim a discounted Cubiq (if it's still available) {'>>'}
+                </a>
+              </p>
+
+              <h2 className="text-2xl font-bold mt-8 mb-4">How to Get Yours?</h2>
+              <div className="flex justify-center my-6">
+                <img
+                  src="/images/how to get yours.jpeg"
+                  alt="How to get yours"
+                  width={400}
+                  height={400}
+                  className="object-contain rounded-xl shadow-lg"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -180,10 +312,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-8">Experience the Magic of Cubiq</h2>
-            <div className="flex justify-center">
+            <div className="flex justify-center my-6">
               <img
-                src="/images/smart%20features.png"
-                alt="Cubiq smart features"
+                src="/product%20pic.gif"
+                alt="Cubiq product gif"
                 width={400}
                 height={400}
                 className="object-contain rounded-xl shadow-lg"
